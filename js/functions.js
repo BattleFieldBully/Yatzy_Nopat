@@ -116,8 +116,8 @@ const analysoiNopat = (noppaArvot) => {
         totalScore = 20; 
         tulos = 'Iso Suora';
     } else {
-        tulos = 'Yksi noppa';
-        totalScore = Math.max(...noppaArvot);
+        tulos = 'Yksi noppa (1-6)';
+        
     }
     document.querySelector('#tulos').textContent = tulos;
     document.querySelector('#pistemaara').textContent = totalScore;
